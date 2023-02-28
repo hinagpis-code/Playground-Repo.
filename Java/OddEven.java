@@ -1,7 +1,6 @@
 import java.util.*;
 public class OddEven{
-  
-  
+ 
   //Drivers Program
  public static void main(String[] args){
   
@@ -15,9 +14,9 @@ public class OddEven{
    
    //condition
    if(num%2 == 0){
-    System.out.println("Inputed Number: " + num + "\n Is Even Number.");
+    System.out.println("Inputed Number: " + num + "\nIs Even Number.");
    }
-   else System.out.println("Inputed Number: " + num  + "\n Is Odd Number.");
+   else System.out.println("Inputed Number: " + num  + "\nIs Odd Number.");
  }
   
 }
