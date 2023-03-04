@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Circle{
   
     static Scanner in = new Scanner(System.in);
-    static double PI = Math.Pi;
+    static double PI = Math.PI;
     double radius, diameter,result;
   
   public double circumference(){
@@ -24,14 +24,14 @@ public class Circle{
   public double radius(){
   System.out.print("Enter the diameter : ");
       diameter = in.nextDouble();
-      result = diamter/2;
+      result = diameter/2;
      System.out.println("The Radius is " + result);
     return result;
   
   }
   
   
-  public static void main(String [] args{
+  public static void main(String [] args){
    
     Circle obj = new Circle();
     
@@ -57,7 +57,7 @@ public class Circle{
         break;
         
       default:
-        System.out.println("Error Choices"!);
+        System.out.println("Error Choices");
         break;
     }
     
